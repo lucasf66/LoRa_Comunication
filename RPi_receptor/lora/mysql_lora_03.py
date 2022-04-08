@@ -117,7 +117,7 @@ if __name__ == '__main__':
         createCsv(nameCsv)
     elif(checkArgv('-reset')):
         resetDatabase()
-    elif(checkArgv('-see')):
+    elif(checkArgv('-view')):
         seeAlldatas()
     else:
         print("Sem argumentos!")
